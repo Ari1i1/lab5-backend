@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-Backend5-78343F1B-F4FB-49BE-BA9F-2F0B39FFFC93</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20210331170930_AddWardStaffss.cs" />
+    <Compile Remove="Migrations\20210331170930_AddWardStaffss.Designer.cs" />
+    <Compile Remove="Migrations\20210401181819_AddPlacementUpdate.cs" />
+    <Compile Remove="Migrations\20210401181819_AddPlacementUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20210401184411_AddPlacementUpdatess.cs" />
+    <Compile Remove="Migrations\20210401184411_AddPlacementUpdatess.Designer.cs" />
+    <Compile Remove="Migrations\20210401184553_AddUpdatesss.cs" />
+    <Compile Remove="Migrations\20210401184553_AddUpdatesss.Designer.cs" />
+    <Compile Remove="Migrations\20210401185421_AddNewPlacementss.cs" />
+    <Compile Remove="Migrations\20210401185421_AddNewPlacementss.Designer.cs" />
+    <Compile Remove="Migrations\20210401185709_AddNewUpdatedPlacement.cs" />
+    <Compile Remove="Migrations\20210401185709_AddNewUpdatedPlacement.Designer.cs" />
+    <Compile Remove="Migrations\20210401190700_AddChangedPlacementt.cs" />
+    <Compile Remove="Migrations\20210401190700_AddChangedPlacementt.Designer.cs" />
+    <Compile Remove="Migrations\20210401191157_AddNew.cs" />
+    <Compile Remove="Migrations\20210401191157_AddNew.Designer.cs" />
+    <Compile Remove="Migrations\20210401192221_AddMigNewPlaces.cs" />
+    <Compile Remove="Migrations\20210401192221_AddMigNewPlaces.Designer.cs" />
+    <Compile Remove="Migrations\20210401192409_AddPlacementsMig.cs" />
+    <Compile Remove="Migrations\20210401192409_AddPlacementsMig.Designer.cs" />
+    <Compile Remove="Migrations\20210401192918_AddDiagChange.cs" />
+    <Compile Remove="Migrations\20210401192918_AddDiagChange.Designer.cs" />
+    <Compile Remove="Migrations\20210401193037_AddPlaceChange.cs" />
+    <Compile Remove="Migrations\20210401193037_AddPlaceChange.Designer.cs" />
+    <Compile Remove="Migrations\20210401193316_AddPlChange.cs" />
+    <Compile Remove="Migrations\20210401193316_AddPlChange.Designer.cs" />
+    <Compile Remove="Migrations\20210401193703_AddPlChanges.cs" />
+    <Compile Remove="Migrations\20210401193703_AddPlChanges.Designer.cs" />
+    <Compile Remove="Migrations\20210401193815_AddPlChangss.cs" />
+    <Compile Remove="Migrations\20210401193815_AddPlChangss.Designer.cs" />
+    <Compile Remove="Migrations\20210401194422_AddPlChang.cs" />
+    <Compile Remove="Migrations\20210401194422_AddPlChang.Designer.cs" />
+    <Compile Remove="Migrations\20210401195216_AddChanges.cs" />
+    <Compile Remove="Migrations\20210401195216_AddChanges.Designer.cs" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
